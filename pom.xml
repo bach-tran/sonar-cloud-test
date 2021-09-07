@@ -9,8 +9,12 @@
 	<properties>
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<maven.compiler.target>1.8</maven.compiler.target>
-		
-		<!-- Jacoco is a Maven plugin that will be triggered when we do a Sonarcloud scan and run our tests -->
+
+		<sonar.organization>bach-tran</sonar.organization>
+		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
+
+		<!-- Jacoco is a Maven plugin that will be triggered when we do a Sonarcloud 
+			scan and run our tests -->
 		<sonar.coverage.jacoco.xmlReportPaths>target/site/jacoco/jacoco.xml</sonar.coverage.jacoco.xmlReportPaths>
 	</properties>
 
